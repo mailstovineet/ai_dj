@@ -1,0 +1,35 @@
+body{
+    background-image:url('background.jpg');
+    background-size:100%;
+}
+#vol{
+    float:left;
+    margin-left:150px;
+}
+
+#fast{
+    float:right;
+    margin-right:150px;
+}
+
+#volume_disk,#speed_disk{
+    width:150px;
+    border-radius:20px;
+}
+
+#volume,#speed{
+    color:white;
+}
+
+.slider{
+    -webkit-appearance:none;
+    width:10%;
+    height:15px;
+    background-color:white;
+}
+
+canvas{
+    border:white 3px dashed;
+    box-shadow:10px 10px 30px red;
+}
+
